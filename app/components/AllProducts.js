@@ -138,8 +138,8 @@ const AllProducts = () => {
                                 loading="lazy"
                                 src={item.image1}
                                 alt={item.title}
-                                width={30}
-                                height={96}
+                                width={375}
+                                height={375}
                                 className="w-full h-96 max-md:min-h-32 max-md:max-h-48 object-contain max-md:object-contain "
                             />
 

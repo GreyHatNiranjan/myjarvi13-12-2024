@@ -36,6 +36,8 @@ const [orderId, setOrderId] = useState(null);
   useEffect(() => {
      const oid = searchParams.get('oid')
      setOrderId(oid)
+     console.log(oid);
+     
     //  console.log(oid);
      
   }, []);
